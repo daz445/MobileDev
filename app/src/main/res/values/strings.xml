@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lab8</string>
+    <string name="name_title">Конвертор длин:</string>
+    <string name="name_metr">В метрах:</string>
+    <string name="name_inch">В дюймах:</string>
+    <string name="name_yard">В ярдах</string>
+    <string name="name_feet">В футах:</string>
+
+
+    <string name="hint_metr">Метры</string>
+    <string name="hint_inch">Дюймы</string>
+    <string name="hint_yard">Ярды</string>
+    <string name="hint_feet">Футы </string>
+</resources>
