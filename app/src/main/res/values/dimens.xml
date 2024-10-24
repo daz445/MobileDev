@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardveiw_height">75dp</dimen>
+    <dimen name="incardview_margin">10dp</dimen>
+    <dimen name="text_height">25dp</dimen>
+
+    <dimen name="button_margintop">175dp</dimen>
+    <dimen name="between_margin">7dp</dimen>
+    <dimen name="button_weight">350dp</dimen>
+    <dimen name="button_height">50dp</dimen>
+    <dimen name="layout_weyght">409dp</dimen>
+</resources>
