@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab10</string>
+    <string name="text_mes_box">Текст сообщения:</string>
+    <string name="text_mess_hint">Напишите сюда текст сообщения</string>
+    <string name="text_button">Текст кнопки действия:</string>
+    <string name="text_button_hint">Напиши сюда текст кнопки действия</string>
+    <string name="box_back">Цвет фона (R, G, B)</string>
+    <string name="text_color_rgb">Цвет текста (R, G, B)</string>
+    <string name="text_color_box">Цвет кнопки (R, G, B)</string>
+    <string name="show">Показать</string>
+</resources>

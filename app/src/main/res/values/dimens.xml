@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="up_pedding">19dp</dimen>
+    <dimen name="left_pedding">21dp</dimen>
+    <dimen name="up_box_pedding">20dp</dimen>
+
+    <dimen name="size_main_title">23sp</dimen>
+    <dimen name="size_name_box">15sp</dimen>
+    <dimen name="height_box">50dp</dimen>
+    <dimen name="weight_box">340dp</dimen>
+    <dimen name="weight_telephone_box">318dp</dimen>
+    <dimen name="size_button_disagree">150dp</dimen>
+    <dimen name="size_button_agree">200dp</dimen>
+    <dimen name="size_seek">106dp</dimen>
+</resources>
