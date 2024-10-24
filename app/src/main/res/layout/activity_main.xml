@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/up_pedding"
+        android:text="@string/main_title"
+        android:textSize="@dimen/size_main_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/box_name_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/left_pedding"
+        android:textSize="@dimen/size_name_box"
+        android:layout_marginTop="@dimen/size_name_box"
+        android:text="@string/name_user"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_title" />
+
+    <EditText
+        android:id="@+id/name_user"
+        android:layout_width="@dimen/weight_box"
+        android:layout_height="@dimen/height_box"
+        android:layout_marginTop="@dimen/up_box_pedding"
+        android:hint="@string/hint_username"
+        android:textSize="@dimen/size_name_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box_name_user" />
+    <TextView
+        android:id="@+id/box_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/left_pedding"
+        android:textSize="@dimen/size_name_box"
+        android:layout_marginTop="@dimen/size_name_box"
+        android:text="@string/password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_user" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="@dimen/weight_box"
+        android:layout_height="@dimen/height_box"
+        android:layout_marginTop="@dimen/up_box_pedding"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:textSize="@dimen/size_name_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box_password" />
+    <TextView
+        android:id="@+id/country_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/left_pedding"
+        android:textSize="@dimen/size_name_box"
+        android:layout_marginTop="@dimen/size_name_box"
+        android:text="@string/country"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+    <Spinner
+        android:id="@+id/country"
+        android:layout_width="@dimen/weight_box"
+        android:layout_height="@dimen/height_box"
+        android:layout_marginTop="@dimen/up_box_pedding"
+        android:hint="@string/hint_password"
+        android:textSize="@dimen/size_name_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/country_box"
+           />
+    <TextView
+        android:id="@+id/telephone_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/left_pedding"
+        android:textSize="@dimen/size_name_box"
+        android:layout_marginTop="@dimen/size_name_box"
+        android:text="@string/telephone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/country" />
+
+    <TextView
+
+
+        android:id="@+id/codtelephone"
+        android:layout_width="40dp"
+        android:layout_height="@dimen/height_box"
+        android:layout_marginStart="@dimen/left_pedding"
+        android:layout_marginTop="@dimen/up_box_pedding"
+        android:text="@string/Rus_code"
+        android:textSize="@dimen/size_name_box"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telephone_box" />
+
+
+    <EditText
+        android:id="@+id/telephone"
+        android:layout_width="@dimen/weight_telephone_box"
+        android:layout_height="@dimen/height_box"
+        android:layout_marginStart="-38dp"
+
+        android:layout_marginTop="@dimen/up_box_pedding"
+        android:hint="@string/Rus_telephone_hint"
+        android:inputType="phone"
+        android:textSize="@dimen/size_name_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/codtelephone"
+        app:layout_constraintTop_toBottomOf="@+id/telephone_box" />
+    <TextView
+        android:id="@+id/box_view_numper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/left_pedding"
+        android:textSize="@dimen/size_name_box"
+        android:layout_marginTop="@dimen/size_name_box"
+        android:text="@string/show_number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telephone" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box_view_numper"
+        tools:ignore="MissingConstraints">
+
+
+        <RadioButton
+            android:id="@+id/all_view"
+            android:layout_width="@dimen/weight_box"
+            android:layout_height="@dimen/height_box"
+
+            android:layout_marginTop="@dimen/up_box_pedding"
+            android:text="@string/all_user"
+            android:textSize="@dimen/size_name_box"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toEndOf="@+id/codtelephone" />
+
+        <RadioButton
+            android:id="@+id/friend_only"
+            android:layout_width="@dimen/weight_box"
+            android:layout_height="@dimen/height_box"
+            android:layout_marginTop="@dimen/up_box_pedding"
+            android:text="@string/friend_only"
+            android:textSize="@dimen/size_name_box"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/codtelephone"
+            app:layout_constraintTop_toBottomOf="@+id/all_view" />
+
+        <RadioButton
+            android:id="@+id/nobody"
+            android:layout_width="@dimen/weight_box"
+            android:layout_height="@dimen/height_box"
+            android:layout_marginTop="@dimen/up_box_pedding"
+            android:text="@string/nobody"
+            android:textSize="@dimen/size_name_box"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/codtelephone"
+            app:layout_constraintTop_toBottomOf="@+id/friend_only" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/agree"
+        android:layout_width="@dimen/weight_box"
+        android:layout_height="@dimen/height_box"
+        android:layout_marginTop="@dimen/up_box_pedding"
+        android:text="@string/agree"
+        android:textSize="@dimen/size_name_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RadioGroup" />
+
+    <Button
+        android:id="@+id/Log_in"
+        android:layout_width="@dimen/size_button_agree"
+        android:layout_height="@dimen/height_box"
+        android:layout_marginTop="@dimen/up_box_pedding"
+        android:text="Зарегистрироваться"
+        android:backgroundTint="@color/grey"
+        android:enabled="false"
+        android:textSize="@dimen/size_name_box"
+        app:layout_constraintEnd_toStartOf="@+id/disagree"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agree" />
+
+    <Button
+        android:id="@+id/disagree"
+        android:layout_width="@dimen/size_button_disagree"
+        android:layout_height="@dimen/height_box"
+        android:layout_marginTop="@dimen/up_box_pedding"
+        android:backgroundTint="@color/red"
+        android:text="@string/disagree_text"
+        android:textSize="@dimen/size_name_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agree" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
